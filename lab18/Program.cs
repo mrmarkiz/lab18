@@ -12,7 +12,8 @@
                 switch (choice)
                 {
                     case 1:
-
+                        Task1.Run();
+                        break;
                 }
             } while (choice != 0);
         }
