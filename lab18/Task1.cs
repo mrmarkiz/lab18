@@ -40,12 +40,12 @@ namespace lab18
                         break;
                 }
                 Console.WriteLine("Current array:");
-                Show(strings);
+                Show(strings, "\n");
             } while (true);
         }
-        public static void Show<T>(List<T> array)
+        public static void Show<T>(List<T> array, string sep)
         {
-            Console.WriteLine(string.Join("\n", array));
+            Console.WriteLine(string.Join(sep, array));
         }
     }
 }
